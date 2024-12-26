@@ -1,6 +1,6 @@
 import pytest
 
-from line_protocol import UInt, line, measurement, parse, tag, tags
+from pyilpp import UInt, line, measurement, parse, tag, tags
 
 
 def test_measurement():
