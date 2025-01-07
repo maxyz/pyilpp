@@ -1,3 +1,4 @@
 .pdm-python
 .pdm.toml
 __pycache__/
+dist/
