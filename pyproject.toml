@@ -6,6 +6,18 @@ authors = [{ name = "Maximiliano Curia", email = "maxy@gnuservers.com.ar" }]
 license = { text = "MIT" }
 dependencies = ["pyparsing>=3.1.4"]
 requires-python = ">=3.11"
+readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/maxyz/pyilpp"
+Issues = "https://github.com/maxyz/pyilpp/issues"
+
 [project.optional-dependencies]
 [build-system]
 requires = ["pdm-pep517>=1.0.0"]
